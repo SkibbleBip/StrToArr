@@ -43,7 +43,7 @@ int main(void)
 {
         char* input             = NULL;
         size_t input_length     = 0;
-        const char* definition  = "char val[] = { ";
+        const char* definition  = "const char val[] = { ";
         const char* closing     = "0x00 };";
         ssize_t ret             = 0;
         /*definition of the input string, the length of input, the definition
